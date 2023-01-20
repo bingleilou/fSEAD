@@ -1,0 +1,18 @@
+name: fsead-test
+channels:
+  - conda-forge
+dependencies:
+  - python==3.6.9
+  - jupyterhub
+  - pip
+  - pip:
+    - jupyter
+    - numpy==1.19.5
+    - matplotlib==3.3.3
+    - tqdm==4.60.0
+    - pysad==0.1.1
+    - pyod==0.8.7
+    - scikit-learn==0.23.2
+    - pandas==1.1.4
+    - combo==0.1.2
+    - mmh3==3.0.0

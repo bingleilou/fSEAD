@@ -13,7 +13,12 @@ Build
 --------------------------------------------------------------------------------
 **In Linux environment**
 
-For params creation: (optional, for the same parameters used for fSEAD paper, this command is not needed)
+For environment configuration:
+```
+conda env create -f environment.yml
+conda activate fsead-test
+```
+For params creation: (it spends about 2.5h in a Intel(R) Core(TM) i7-10700F @2.9GHz and 64GB memory PC; optional, for the same parameters used for fSEAD paper, this command is not needed)
 ```
 bash run_python.sh 
 ```
