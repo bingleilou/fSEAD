@@ -34,7 +34,7 @@ For hls project generation:
 ```
 bash run_fpga.sh 
 ```
-After genreating the HLS IPs, the following Vivado project is executated on Windows environment.
+After genreating the HLS IPs, copy the extire path to a windows environment with Vivado v2020.1 installed. The following Vivado project is executated on Windows environment. In the future, we will fix this inconvenience by integrating all the processes in Linux environment.
 
 **In Windows environment**
 (For the same BIT/HWH files used for fSEAD paper, this command is not needed)
