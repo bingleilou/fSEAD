@@ -54,6 +54,6 @@ make all
 
 **In PYNQ environment**
 The image version is v2.6
-1. replace the overlay.py to the original one.
+1. delete the original overlay.py and replace it with the fSEAD/fpga/pynq/overlay.py since we modified several bugs of partial reconfiguration function in the official PYNQ image.
 2. upload the fSEAD.ipynb, BIT_HWH folder, and dataset to the jupyter environment.
 3. execute the fSEAD.ipynb
