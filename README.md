@@ -38,10 +38,13 @@ For hls project generation:(for single thread, run 'run_hls.sh')
 ```
 bash run_hls.sh 
 ```
+<<<<<<< HEAD
 If the gnome-terminal is installed, run the alternative command which is executed in multi-thread terminal. (7-thread for the existing project)
 ```
 bash run_hls_mt.sh 
 ```
+=======
+>>>>>>> 52d9ba481185b6598d1707bcc6eb3f3095b4b7b4
 After genreating the HLS IPs, copy the extire path to a windows environment with Vivado v2020.1 installed. The following Vivado project is executated on Windows environment. In the future, we will fix this inconvenience by integrating all the processes in Linux environment.
 
 **In Windows environment**
