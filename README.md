@@ -15,12 +15,12 @@ Build
 --------------------------------------------------------------------------------
 **In Ubuntu Linux environment**
 
-For environment configuration:
+__(1).__ For environment configuration:
 ```
 conda env create -f environment.yml
 conda activate fsead-test
 ```
-For params creation: (it spends about 2.5h in a Intel(R) Core(TM) i7-10700F @2.9GHz and 64GB memory PC; optional, for the same parameters used for fSEAD paper, this command is not needed)
+__(2).__ For params creation: (it spends about 2.5h in a Intel(R) Core(TM) i7-10700F @2.9GHz and 64GB memory PC; optional, for the same parameters used for fSEAD paper, this command is not needed)
 ```
 bash run_python.sh 
 ```
@@ -28,7 +28,7 @@ If the gnome-terminal is installed, run the alternative command which is execute
 ```
 bash run_python_mt.sh 
 ```
-For gcc project generation: (the run_gcc.sh works on gcc-7.5.0; the run_gcc11.sh is tested on gcc-11.3.0; the only difference is the '-O3' flag didn't work on gcc11 for the existing project, so this flag is deleted in the run_gcc11.sh)
+__(3).__ For gcc project generation: (the run_gcc.sh works on gcc-7.5.0; the run_gcc11.sh is tested on gcc-11.3.0; the only difference is the '-O3' flag didn't work on gcc11 for the existing project, so this flag is deleted in the run_gcc11.sh)
 ```
 bash run_gcc.sh 
 ```
@@ -36,7 +36,7 @@ or
 ```
 bash run_gcc11.sh 
 ```
-For hls project generation:(for single thread, run 'run_hls.sh')
+__(4).__ For hls project generation:(for single thread, run 'run_hls.sh')
 ```
 bash run_hls.sh 
 ```
@@ -46,7 +46,7 @@ bash run_hls_mt.sh
 ```
 =======
 
-After genreating the HLS IPs, copy the extire path to a windows environment with Vivado v2020.1 installed. The following Vivado project is executated on Windows environment. In the future, we will fix this inconvenience by integrating all the processes in Linux environment.
+__(5).__ After genreating the HLS IPs, copy the extire path to a windows environment with Vivado v2020.1 installed. The following Vivado project is executated on Windows environment. In the future, we will fix this inconvenience by integrating all the processes in Linux environment.
 
 **In Windows environment**
 (For the same BIT/HWH files used for fSEAD paper, this command is not needed)
