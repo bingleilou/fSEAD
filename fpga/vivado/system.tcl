@@ -133,11 +133,11 @@ set_property  ip_repo_paths  {
  ./../hls/xstream_e20/http1/C5/hls_xstream_http1_prj/solution-rfsoc/impl \
  ./../hls/xstream_e20/http1/C6/hls_xstream_http1_prj/solution-rfsoc/impl \
  ./../hls/xstream_e20/http1/C7/hls_xstream_http1_prj/solution-rfsoc/impl \
- ./../hls/combo/combo_s4_i2/solution-rfsoc/impl \
- ./../hls/combo/combo_s4_i3/solution-rfsoc/impl \
- ./../hls/combo/combo_s4_i4/solution-rfsoc/impl \
- ./../hls/default/combo_default/solution-rfsoc/impl \
- ./../hls/default/detector_default/solution-rfsoc/impl \
+ ./../hls/combo/combo_s4_i2/hls_combo_s4_i2_prj/solution-rfsoc/impl \
+ ./../hls/combo/combo_s4_i3/hls_combo_s4_i3_prj/solution-rfsoc/impl \
+ ./../hls/combo/combo_s4_i4/hls_combo_s4_i4_prj/solution-rfsoc/impl \
+ ./../hls/default/combo_default/hls_default_empty_combo_prj/solution-rfsoc/impl \
+ ./../hls/default/detector_default/hls_default_empty_ad_prj/solution-rfsoc/impl \
  } [current_project]
 update_ip_catalog
 
