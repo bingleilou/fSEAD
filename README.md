@@ -13,7 +13,7 @@ Three detectors are supported: Loda, RS-Hash and xStream.
 --------------------------------------------------------------------------------
 Build
 --------------------------------------------------------------------------------
-**In Linux environment**
+**In Ubuntu Linux environment**
 
 For environment configuration:
 ```
