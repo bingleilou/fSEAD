@@ -1,6 +1,8 @@
 # fSEAD
 fSEAD: a Composable FPGA-based Streaming Ensemble Anomaly Detection Library
 
+Paper Link: https://dl.acm.org/doi/10.1145/3568992
+
 --------------------------------------------------------------------------------
 Introduction
 --------------------------------------------------------------------------------
