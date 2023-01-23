@@ -43,6 +43,7 @@ If the gnome-terminal is installed, run the alternative command which is execute
 bash run_hls_mt.sh 
 ```
 =======
+
 After genreating the HLS IPs, copy the extire path to a windows environment with Vivado v2020.1 installed. The following Vivado project is executated on Windows environment. In the future, we will fix this inconvenience by integrating all the processes in Linux environment.
 
 **In Windows environment**
@@ -51,6 +52,7 @@ go to fpga/vivado/ in Vivado command terminal
 ```
 make all
 ```
+This step spends around 24h in the tested desktop PC.
 
 **In PYNQ environment**
 The image version is v2.6
