@@ -25,24 +25,21 @@ cd $CURDIR/fpga/ && python3 xstream_hls_gen.py --data_name http1
 
 
 echo "=============== Compile HLS code ================"
-cd $CURDIR/fpga/hls/combo/combo_s4_i4/ && make all
-cd $CURDIR/fpga/hls/combo/combo_s4_i3/ && make all
-cd $CURDIR/fpga/hls/combo/combo_s4_i2/ && make all
-
-cd $CURDIR/fpga/hls/combo/combo_m4_i4/ && make all
-cd $CURDIR/fpga/hls/combo/combo_m4_i3/ && make all
-cd $CURDIR/fpga/hls/combo/combo_m4_i2/ && make all
-
-cd $CURDIR/fpga/hls/combo/combo_w4_i4/ && make all
-cd $CURDIR/fpga/hls/combo/combo_w4_i3/ && make all
-cd $CURDIR/fpga/hls/combo/combo_w4_i2/ && make all
-
-cd $CURDIR/fpga/hls/combo/combo_o4_i4/ && make all
-cd $CURDIR/fpga/hls/combo/combo_o4_i3/ && make all
-cd $CURDIR/fpga/hls/combo/combo_o4_i2/ && make all
-
-cd $CURDIR/fpga/hls/default/combo_default/ && make all
-cd $CURDIR/fpga/hls/default/detector_default/ && make all
+gnome-terminal  --title="combo"  -- bash -c " cd $CURDIR/fpga/hls/combo/combo_s4_i4/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_s4_i3/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_s4_i2/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_m4_i4/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_m4_i3/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_m4_i2/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_w4_i4/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_w4_i3/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_w4_i2/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_o4_i4/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_o4_i3/ && make all; \
+    cd $CURDIR/fpga/hls/combo/combo_o4_i2/ && make all; \
+    cd $CURDIR/fpga/hls/default/combo_default/ && make all; \
+    cd $CURDIR/fpga/hls/default/detector_default/ && make all; \
+"
 
 gnome-terminal  --title="C1"  -- bash -c " cd $CURDIR/fpga/hls/loda_e35/cardio/C1/ && make all; \
     cd $CURDIR/fpga/hls/loda_e35/shuttle/C1/ && make all; \
