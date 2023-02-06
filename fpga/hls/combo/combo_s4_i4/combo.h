@@ -11,8 +11,8 @@
 #define W_WIDTH 32
 #define I_WIDTH 8
 typedef ap_fixed<W_WIDTH,I_WIDTH> interface_t;
-typedef ap_fixed<32,8> accum_t;
-typedef ap_fixed<32,4> score_t;
+typedef ap_fixed<64,32> accum_t;
+typedef ap_fixed<32,8> score_t;
 
 struct DataBus {
     float data;
