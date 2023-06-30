@@ -5,12 +5,14 @@ Paper Link: https://dl.acm.org/doi/10.1145/3568992
 
 If you use any part of this code in a publication, please cite the paper 
 ```bibtex
-@article{lou2022fsead,
+@article{lou2023fsead,
   author       = {Binglei, Lou and David Boland and Philip HW Leong},
   title        = {fSEAD: a Composable FPGA-based Streaming Ensemble Anomaly Detection Library},
   journal      = {ACM Transactions on Reconfigurable Technology and Systems},
-  year         = {2022},
-  type         = {Journal Article}
+  year         = {2023},
+  issn         = {1936-7406},
+  volume       = {16},
+  number       = {3}
 }
 ```
 --------------------------------------------------------------------------------
