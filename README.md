@@ -27,7 +27,8 @@ The toolflow with partial reconfiguration (DFX).
 <img src="toolflow.PNG" alt="" width="700">
 
 The FPGA layout and placement
-<img src="placement" alt="" width="700">
+
+<img src="placement.PNG" alt="" width="700">
 
 --------------------------------------------------------------------------------
 Build
