@@ -22,6 +22,13 @@ Introduction
 fSEAD is a HLS-based module generator for ensemble-centric streaming anomaly detection.
 Three detectors are supported: Loda, RS-Hash and xStream.
 
+The toolflow with partial reconfiguration (DFX). 
+
+<img src="toolflow.PNG" alt="" width="700">
+
+The FPGA layout and placement
+<img src="placement" alt="" width="700">
+
 --------------------------------------------------------------------------------
 Build
 --------------------------------------------------------------------------------
